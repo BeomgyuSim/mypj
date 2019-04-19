@@ -1,0 +1,8 @@
+int Get_int_1, Get_int_2;
+ printf("차례로 두 정수를 입력해주십시오.\n");
+ scanf_s("%d", &Get_int_1);
+ scanf_s("%d", &Get_int_2); 
+ printf("plus : %d \n", Get_int_1 + Get_int_2);
+ printf("minus : %d \n", abs(Get_int_1 - Get_int_2));
+ printf("multiple : %d \n", Get_int_1*Get_int_2);
+ printf("divide : %f \n", float(Get_int_1) / Get_int_2);
